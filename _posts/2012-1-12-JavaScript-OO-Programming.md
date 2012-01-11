@@ -11,7 +11,7 @@ JavaScript是面向对象的，这一点是没有疑问的，但是我看很多�
 
 下面就给出一个用JavaScript最原生的OO方法编写的简单实例，供参考：
 
-{% highlight java %}
+{% highlight javascript %}
 function _cb(func, context) {
     return function() {
         if (!context) {
