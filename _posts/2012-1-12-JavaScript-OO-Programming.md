@@ -35,7 +35,7 @@ Ajax.prototype = {
     encode: function(data) {
         result = "";
         for (key in data) {
-            result += escape(key) + "=" + escape(data[key]) + "&";
+            result += encodeURIComponent(key) + "=" + encodeURIComponent(data[key]) + "&";
         }
         return result;
     },
