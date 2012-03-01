@@ -142,7 +142,7 @@ table.projects td.desc {
 
 .bubble {
   color: #fff;
-  font-size: 14;
+  font-size: 14px;
   padding: 10px;
   position: relative; }
   .bubble .tip {
