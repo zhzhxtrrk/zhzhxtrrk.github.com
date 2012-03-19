@@ -1,5 +1,5 @@
 html {
-  padding: 35px 0 35px 0; }
+  padding: 0px 50px 0px 50px; }
 
 body {
   text-align: center;
@@ -10,13 +10,13 @@ body {
 
 #header {
   font-family: 'Lato';
-  padding: 25px;
-  background: #0086B3;
+  /* padding: 25px; */
+  background: #000000;
   margin-bottom: 45px;
   color: #eee; }
   #header .inner {
     text-align: left;
-    width: 725px;
+    /* width: 725px; */
     margin: auto; }
   #header ul {
     float: right;
@@ -46,7 +46,7 @@ body {
 
 #content .inner {
   text-align: left;
-  width: 725px;
+  /* width: 725px; */
   margin: auto; }
 
 .post {
@@ -69,24 +69,26 @@ body {
   .post ul li {
     margin-bottom: 0.5em; }
   .post .meta {
+      border-top: 1px solid #333333;
+      border-bottom: 1px solid #333333;
     margin-top: 25px;
     padding: 10px;
-    background: #0086B3;
+    background: #000000;
     color: #eee; }
   .post .meta a {
       color:#eee; }
 
 #footer {
   font-family: 'Lato';
-  background: #0086B3;
-  padding: 25px;
+  background: #000000;
+  /* padding: 25px; */
   color: #eee; }
   #footer a {
       color: #eee;
   }
   #footer .inner {
     text-align: left;
-    width: 725px;
+   /* width: 725px; */
     margin: auto; }
   #footer h3 {
     font-size: 24px;
@@ -120,10 +122,10 @@ body {
       width: 140px; }
 
 .my_pic {
-  float: right; }
+  float: left; margin: 20px;}
 
 .about_head {
-  width: 550px;
+  /* width: 550px;*/
   margin-bottom: 45px; }
 
 .projects_container {
