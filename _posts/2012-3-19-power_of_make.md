@@ -35,5 +35,5 @@ $(TARGET) : .c_depend .cxx_depend $(C_OBJS) $(CXX_OBJS)
 -include .c_depend .cxx_depend
 
 clean :
-	rm *.o test .c_depend .cxx_depend
+	rm *.o $(TARGET) .c_depend .cxx_depend
 {% endhighlight %}
