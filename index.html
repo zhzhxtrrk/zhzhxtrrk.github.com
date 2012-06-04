@@ -1,12 +1,18 @@
-<!doctype html>
-<html>
-  <head>
-	<title>维护中</title>
-  </head>
-  <body>
-	<h1>通知</h1>
-	<p>值此维护日之际，为了让朋友们过一个欢乐详和的节日，本博客决定自明日起自觉和谐。</p>
-	<p>和谐工作组 2012年6月3日</p>
-  </body>
-</html>
-  
+---
+layout: default
+title: Steven Zhang
+---
+
+{% for post in site.posts limit:10 %}
+    <div class="post">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      
+        <div class="body">
+            {{ post.content }}
+        </div>
+        
+        <div class="meta">
+            Posted on <a href="{{ post.url }}">{{ post.date | date_to_string }}</a>
+        </div>
+    </div>
+{% endfor %}
