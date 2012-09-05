@@ -2,6 +2,9 @@
 html, body {
   background-color: #eee;
 }
+h1 {
+	text-shadow: 0 1px 0px #FFF;
+}
 .navbar {
   margin-bottom: 0;
 }
@@ -34,6 +37,19 @@ html, body {
 
 .topbar .btn {
   border: 0;
+}
+
+article {
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #DDD;
+}
+
+article h1 {
+	text-shadow: 0px 2px 0px #DDD;
+}
+
+article .post-date {
+	color: #AAA;
 }
 
 
