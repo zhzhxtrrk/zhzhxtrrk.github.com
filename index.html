@@ -9,14 +9,14 @@ title: I'm Steven Zhang
   <div class="span8">
 	{% for post in site.posts limit:10 %}
 	<article>
-	  <h1><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.tagline %}<small>{{ post.tagline }}{% endif %}</h1>
+	  <h1><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.tagline %}<small>{{ post.tagline }}</small>{% endif %}</h1>
 	  <p class="post-date">{{ post.date|date_to_long_string }}</p>
 	  {{ post.content }}
 	</article>
 	{% include JB/sharing %}
 	{% endfor %}
+	<p><a href="/archive.html">Read older blogs...</a></p>
   </div>
   <div class="span4">
-	&nbsp;
   </div>
 </div>
