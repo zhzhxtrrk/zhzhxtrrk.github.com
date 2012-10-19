@@ -11,14 +11,14 @@ title: 让eclipse支持retina display
 其实很简单，只需要打开eclipse.app这个目录，在Contents/Info.plist里添加一对键值就好了：
 
 {% highlight xml %}
-<key>HSHighResolutionCapable</key>
+<key>NSHighResolutionCapable</key>
 <true/>
 {% endhighlight %}
 
 把这段代码放到Info.plist文件的最后，</dict></plist>前面。修改后这个文件里后五行是这样的：
 
 {% highlight xml %}
-   		<key>HSHighResolutionCapable</key>
+   		<key>NSHighResolutionCapable</key>
 		<true/>
 	</dict>
 </plist>
