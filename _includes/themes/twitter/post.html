@@ -1,11 +1,10 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{ page.tagline }}</small>{% endif %}</h1>
-</div>
-
 <div class="row">
   <div class="span8">
-    {{ content }}
-	<p>-EOF-</p>
+    <article>
+      <h1>{{ page.title }} {% if page.tagline %}<small>{{ page.tagline }}</small>{% endif %}</h1>
+      {{ content }}
+	  <p>-EOF-</p>
+    </article>
     <hr>
     <div class="pagination">
       <ul>
