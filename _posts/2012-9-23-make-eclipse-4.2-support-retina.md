@@ -27,3 +27,7 @@ title: 让eclipse支持retina display
 这个时候，你再次打开eclipse是不会生效的，因为MacOS会缓存Info.plist里的信息，建议是复制一份这个Eclipse.app，然后把原来的删除掉，再把这个复制到改回原来的名字。此时再启动就应该是OK了！
 
 好了，enjoy it!
+
+---
+
+UPDATE: 现在已经放弃Eclipse有一段时间了，现在主要用的IDE是[Intellij IDEA](http://www.jetbrains.com/idea/)，强烈建议你也是是，提升效率刚刚的，即使是免费的社区版。
