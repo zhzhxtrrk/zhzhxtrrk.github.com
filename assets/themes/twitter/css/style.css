@@ -51,6 +51,7 @@ article {
 
 article h1 {
 	text-shadow: 0px 2px 0px #DDD;
+    font-size: 16px;
 }
 
 article .post-date {
