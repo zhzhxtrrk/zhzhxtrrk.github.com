@@ -30,4 +30,4 @@ title: 让eclipse支持retina display
 
 ---
 
-UPDATE: 现在已经放弃Eclipse有一段时间了，现在主要用的IDE是[Intellij IDEA](http://www.jetbrains.com/idea/)，强烈建议你也是是，提升效率刚刚的，即使是免费的社区版。
+UPDATE: 现在已经放弃Eclipse有一段时间了，现在主要用的IDE是[Intellij IDEA](http://www.jetbrains.com/idea/)，强烈建议你也试试，提升效率刚刚的，即使是免费的社区版。
